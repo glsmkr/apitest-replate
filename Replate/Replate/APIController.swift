@@ -28,4 +28,10 @@ class APIController {
     
     private let baseURL = URL(string: "https://bw-replate.herokuapp.com/api/auth/business/register")!
     var bearer: Bearer?
+    
+    func register(with user: User, completion: @escaping (Error?) -> ()) {
+        
+    }
+    
+    
 }

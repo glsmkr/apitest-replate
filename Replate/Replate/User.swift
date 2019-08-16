@@ -1,0 +1,19 @@
+//
+//  User.swift
+//  Replate
+//
+//  Created by Julian A. Fordyce on 8/16/19.
+//  Copyright © 2019 Glas Labs. All rights reserved.
+//
+
+import Foundation
+
+struct User: Codable {
+    let username: String
+    let password: String
+    let organizationName: String
+    let address: String
+    let email: String
+    let phone: Int
+    
+}
