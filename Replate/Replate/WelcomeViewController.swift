@@ -14,7 +14,22 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBAction func registerOrLogin(_ sender: Any) {
+    }
+    
+    @IBAction func changeSignType(_ sender: Any) {
+    }
+    
+    
+    // MARK: - Properties
+    @IBOutlet weak var usernameTextField: UITextField!
+    
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    @IBOutlet weak var signInButton: UIButton!
+    
+    @IBOutlet weak var loginSegmentedControl: UISegmentedControl!
+    
 }
 

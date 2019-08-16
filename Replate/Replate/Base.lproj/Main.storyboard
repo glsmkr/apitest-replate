@@ -24,6 +24,9 @@
                                     <segment title="Register"/>
                                     <segment title="Log in"/>
                                 </segments>
+                                <connections>
+                                    <action selector="changeSignType:" destination="BYZ-38-t0r" eventType="valueChanged" id="S1a-BR-T0z"/>
+                                </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tGe-QJ-eDu">
                                 <rect key="frame" x="167" y="327" width="80" height="30"/>
@@ -31,6 +34,9 @@
                                     <constraint firstAttribute="width" constant="80" id="Jh1-32-joo"/>
                                 </constraints>
                                 <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="registerOrLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CtQ-GV-JZ2"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="GAR-fX-jpm">
                                 <rect key="frame" x="8" y="165" width="398" height="80"/>
@@ -62,6 +68,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="loginSegmentedControl" destination="fB9-rF-qdD" id="mwk-1E-3OG"/>
+                        <outlet property="passwordTextField" destination="Ka4-Ec-Rc7" id="eRD-se-P3i"/>
+                        <outlet property="signInButton" destination="tGe-QJ-eDu" id="Xfz-L8-JXk"/>
+                        <outlet property="usernameTextField" destination="NgU-rU-cUh" id="POP-nn-veJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
