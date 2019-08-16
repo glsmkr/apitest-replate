@@ -61,8 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				D8E3B8C62307133D00E2B0B8 /* APIController.swift */,
-				D8E3B8C82307176100E2B0B8 /* Bearer.swift */,
-				D8E3B8CA2307192E00E2B0B8 /* User.swift */,
+				D8E3B8CC230719F500E2B0B8 /* Model */,
 				D8E3B8B423070C5F00E2B0B8 /* AppDelegate.swift */,
 				D8E3B8B623070C5F00E2B0B8 /* ViewController.swift */,
 				D8E3B8B823070C5F00E2B0B8 /* Main.storyboard */,
@@ -71,6 +70,15 @@
 				D8E3B8C023070C6100E2B0B8 /* Info.plist */,
 			);
 			path = Replate;
+			sourceTree = "<group>";
+		};
+		D8E3B8CC230719F500E2B0B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8E3B8C82307176100E2B0B8 /* Bearer.swift */,
+				D8E3B8CA2307192E00E2B0B8 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
